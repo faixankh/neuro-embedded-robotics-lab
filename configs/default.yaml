@@ -1,0 +1,27 @@
+study:
+  name: neuro_embedded_navigation_lab
+  seed: 23
+  episodes_per_controller: 36
+
+environment:
+  size: 28
+  obstacle_density: 0.14
+  dynamic_obstacles: 3
+  max_steps: 340
+  lidar_beams: 24
+  corridor_bias: 0.42
+
+controllers:
+  reactive:
+    safety_margin: 1.2
+  local_mpc:
+    lookahead: 9
+    samples: 21
+  temporal_only:
+    memory_decay: 0.82
+    spike_threshold: 0.58
+  full_stack:
+    memory_decay: 0.82
+    spike_threshold: 0.58
+    planner_weight: 0.95
+    risk_weight: 1.10

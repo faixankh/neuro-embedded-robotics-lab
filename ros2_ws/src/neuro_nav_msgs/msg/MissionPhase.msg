@@ -1,0 +1,5 @@
+builtin_interfaces/Time stamp
+string phase
+string controller_mode
+uint32 waypoint_index
+float32 mission_progress

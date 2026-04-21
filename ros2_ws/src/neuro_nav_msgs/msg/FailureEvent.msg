@@ -1,0 +1,11 @@
+builtin_interfaces/Time stamp
+string run_id
+string scenario
+string method
+string code
+string summary
+float32 distance_to_goal
+float32 progress_ratio
+uint32 replan_count
+uint32 recovery_count
+bool terminal

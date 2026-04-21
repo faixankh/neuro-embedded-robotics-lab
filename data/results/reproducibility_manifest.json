@@ -1,0 +1,61 @@
+{
+  "study_id": "NEL-2026-main-study-v0.3",
+  "generated_on": "2026-04-20",
+  "artifacts": [
+    "data/results/study_records.json",
+    "data/results/study_summary.json",
+    "data/results/trajectory_bank.json",
+    "assets/figures/success_rate.png",
+    "assets/figures/collision_rate.png",
+    "assets/figures/energy_budget.png",
+    "assets/figures/path_efficiency.png",
+    "assets/figures/controller_profile.png",
+    "assets/figures/scenario_heatmap.png",
+    "assets/figures/system_overview.svg",
+    "assets/animations/trajectory_playback.gif",
+    "reports/dashboard.html"
+  ],
+  "summary_snapshot": {
+    "Reactive": {
+      "episodes": 36,
+      "success_rate": 0.194,
+      "collision_rate": 0.806,
+      "avg_steps": 26.78,
+      "avg_efficiency": 0.415,
+      "avg_progress_ratio": 0.416,
+      "avg_energy": 5.87,
+      "avg_min_clearance": 0.37
+    },
+    "Sampling MPC": {
+      "episodes": 36,
+      "success_rate": 0.278,
+      "collision_rate": 0.722,
+      "avg_steps": 31.92,
+      "avg_efficiency": 0.377,
+      "avg_progress_ratio": 0.453,
+      "avg_energy": 9.27,
+      "avg_min_clearance": 0.2
+    },
+    "Temporal Only": {
+      "episodes": 36,
+      "success_rate": 0.0,
+      "collision_rate": 1.0,
+      "avg_steps": 14.72,
+      "avg_efficiency": 0.248,
+      "avg_progress_ratio": 0.248,
+      "avg_energy": 3.93,
+      "avg_min_clearance": 0.13
+    },
+    "Full Neuro-Embedded": {
+      "episodes": 36,
+      "success_rate": 0.444,
+      "collision_rate": 0.556,
+      "avg_steps": 36.14,
+      "avg_efficiency": 0.455,
+      "avg_progress_ratio": 0.566,
+      "avg_energy": 10.99,
+      "avg_min_clearance": 0.32
+    }
+  },
+  "notes": "All figures were generated from local result JSON files; no manual editing required."
+}

@@ -1,0 +1,7 @@
+failure_code,count
+collision,9
+planner_timeout,5
+localization_divergence,4
+recovery_exhaustion,3
+mission_timeout,2
+controller_conflict,1

@@ -1,0 +1,13 @@
+<package format="3">
+  <name>neuro_nav_slam</name>
+  <version>0.2.0</version>
+  <description>SLAM backend launch wrappers and parameter bundles for hybrid autonomy experiments.</description>
+  <maintainer email="faizan@example.com">Faizan Ahmed</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>cartographer_ros</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

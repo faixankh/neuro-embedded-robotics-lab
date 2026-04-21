@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="neurobot_reference">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+    <link name="note">
+      <visual name="marker">
+        <geometry><box><size>0.001 0.001 0.001</size></box></geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

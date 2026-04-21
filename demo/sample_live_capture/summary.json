@@ -1,0 +1,18 @@
+{
+  "artifact_type": "sample_live_capture_preview",
+  "duration_s": 180,
+  "success": true,
+  "collisions": 0,
+  "min_clearance_m": 0.41,
+  "path_length_m": 14.82,
+  "avg_linear_velocity_mps": 0.34,
+  "controller": "nav2_primary_neuro_shadow",
+  "bag_recorded": true,
+  "screenshots_expected": [
+    "gazebo",
+    "rviz",
+    "foxglove"
+  ],
+  "video_storyboard_frames": 6,
+  "note": "Preview packet generated from repository tooling; replace with workstation-captured evidence after real ROS 2 + Gazebo run."
+}

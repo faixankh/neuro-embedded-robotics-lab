@@ -1,0 +1,35 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="white"/>
+  <text x="70" y="70" font-size="34" font-family="Arial">Neuro-Embedded Navigation Lab — system overview</text>
+  <rect x="60" y="130" width="230" height="120" rx="18" fill="#f2f2f2" stroke="black"/>
+  <text x="90" y="180" font-size="24" font-family="Arial">Structured worlds</text>
+  <text x="88" y="215" font-size="19" font-family="Arial">corridors • bottlenecks •</text>
+  <text x="88" y="240" font-size="19" font-family="Arial">dynamic crossings</text>
+
+  <rect x="360" y="130" width="260" height="120" rx="18" fill="#f2f2f2" stroke="black"/>
+  <text x="390" y="180" font-size="24" font-family="Arial">Range + dynamic sensing</text>
+  <text x="392" y="215" font-size="19" font-family="Arial">24-beam lidar surrogate</text>
+  <text x="392" y="240" font-size="19" font-family="Arial">relative obstacle state</text>
+
+  <rect x="690" y="130" width="260" height="120" rx="18" fill="#f2f2f2" stroke="black"/>
+  <text x="740" y="180" font-size="24" font-family="Arial">Temporal spike memory</text>
+  <text x="735" y="215" font-size="19" font-family="Arial">membrane • trace • rate</text>
+  <text x="735" y="240" font-size="19" font-family="Arial">short-horizon risk state</text>
+
+  <rect x="1020" y="130" width="280" height="120" rx="18" fill="#f2f2f2" stroke="black"/>
+  <text x="1050" y="180" font-size="24" font-family="Arial">Planner-aware action fusion</text>
+  <text x="1052" y="215" font-size="19" font-family="Arial">A* route prior + risk gating</text>
+  <text x="1052" y="240" font-size="19" font-family="Arial">velocity / turn commands</text>
+
+  <line x1="290" y1="190" x2="360" y2="190" stroke="black" stroke-width="3"/>
+  <line x1="620" y1="190" x2="690" y2="190" stroke="black" stroke-width="3"/>
+  <line x1="950" y1="190" x2="1020" y2="190" stroke="black" stroke-width="3"/>
+
+  <rect x="100" y="360" width="1200" height="320" rx="22" fill="#fafafa" stroke="black"/>
+  <text x="130" y="410" font-size="28" font-family="Arial">Experimental programme</text>
+  <text x="140" y="470" font-size="22" font-family="Arial">• Controller families: reactive, sampling MPC, temporal-only, full neuro-embedded</text>
+  <text x="140" y="515" font-size="22" font-family="Arial">• Scenario suite: easy open, bottleneck, dead-end, dynamic crossing, corridor maze, asymmetric gap</text>
+  <text x="140" y="560" font-size="22" font-family="Arial">• Metrics: success, collision, steps, path efficiency, clearance, energy proxy</text>
+  <text x="140" y="605" font-size="22" font-family="Arial">• Outputs: figures, animated trajectory playback, interactive HTML dashboard, manuscript draft</text>
+</svg>

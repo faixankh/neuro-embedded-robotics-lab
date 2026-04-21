@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>neuro_nav_gazebo</name>
+  <version>0.2.0</version>
+  <description>Gazebo worlds and SDF models for the Neuro-Embedded Navigation Lab.</description>
+  <maintainer email="faizan@example.com">Faizan Ahmed Khan</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

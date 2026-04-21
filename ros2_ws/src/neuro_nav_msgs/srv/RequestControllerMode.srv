@@ -1,0 +1,5 @@
+string requested_mode
+string reason
+---
+bool accepted
+string active_mode

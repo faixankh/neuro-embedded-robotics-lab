@@ -1,0 +1,6 @@
+sensor_health_monitor:
+  ros__parameters:
+    publish_period: 0.2
+degradation_injector:
+  ros__parameters:
+    profile: nominal

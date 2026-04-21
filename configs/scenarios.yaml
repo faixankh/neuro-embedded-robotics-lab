@@ -1,0 +1,7 @@
+scenarios:
+  - easy_open
+  - bottleneck
+  - dead_end
+  - dynamic_crossing
+  - corridor_maze
+  - asym_gap

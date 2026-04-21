@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820">
+<style>.box{fill:white;stroke:black;stroke-width:2}.txt{font-family:Arial,sans-serif;font-size:20px}.small{font-family:Arial,sans-serif;font-size:16px}</style>
+<rect x="30" y="20" width="1220" height="780" fill="white" stroke="black" stroke-width="2"/>
+<text x="60" y="70" class="txt" font-size="34">Advanced package topology</text>
+<rect class="box" x="70" y="140" width="240" height="120"/><text x="90" y="180" class="txt">neuro_nav_bringup</text><text x="90" y="215" class="small">launch / configs / maps / RViz</text>
+<rect class="box" x="370" y="140" width="240" height="120"/><text x="390" y="180" class="txt">neuro_nav_slam</text><text x="390" y="215" class="small">SLAM Toolbox + Cartographer</text>
+<rect class="box" x="670" y="140" width="240" height="120"/><text x="690" y="180" class="txt">neuro_nav_bt_plugins</text><text x="690" y="215" class="small">custom Nav2 BT nodes</text>
+<rect class="box" x="970" y="140" width="220" height="120"/><text x="990" y="180" class="txt">neuro_nav_control</text><text x="990" y="215" class="small">arbitration params</text>
+<rect class="box" x="120" y="360" width="240" height="120"/><text x="140" y="400" class="txt">neuro_nav_nodes</text><text x="140" y="435" class="small">fusion / controller / mission / logger</text>
+<rect class="box" x="430" y="360" width="240" height="120"/><text x="450" y="400" class="txt">neuro_nav_perception</text><text x="450" y="435" class="small">sensor health / degradation / traversability</text>
+<rect class="box" x="740" y="360" width="240" height="120"/><text x="760" y="400" class="txt">neuro_nav_experiments</text><text x="760" y="435" class="small">batch runner / taxonomy / offline eval</text>
+<rect class="box" x="1040" y="360" width="150" height="120"/><text x="1060" y="400" class="txt">neuro_nav_msgs</text><text x="1060" y="435" class="small">custom interfaces</text>
+<rect class="box" x="250" y="590" width="300" height="110"/><text x="270" y="630" class="txt">neuro_nav_description + gazebo</text><text x="270" y="665" class="small">URDF / SDF / sensors / world assets</text>
+<rect class="box" x="700" y="590" width="340" height="110"/><text x="720" y="630" class="txt">reports + assets + demo + docs</text><text x="720" y="665" class="small">GitHub-facing evidence and figures</text>
+<line x1="310" y1="200" x2="370" y2="200" stroke="black" stroke-width="2"/>
+<line x1="610" y1="200" x2="670" y2="200" stroke="black" stroke-width="2"/>
+<line x1="910" y1="200" x2="970" y2="200" stroke="black" stroke-width="2"/>
+<line x1="190" y1="260" x2="220" y2="360" stroke="black" stroke-width="2"/>
+<line x1="490" y1="260" x2="520" y2="360" stroke="black" stroke-width="2"/>
+<line x1="790" y1="260" x2="820" y2="360" stroke="black" stroke-width="2"/>
+<line x1="1080" y1="260" x2="1110" y2="360" stroke="black" stroke-width="2"/>
+<line x1="320" y1="480" x2="400" y2="590" stroke="black" stroke-width="2"/>
+<line x1="860" y1="480" x2="870" y2="590" stroke="black" stroke-width="2"/>
+</svg>

@@ -1,0 +1,8 @@
+controller_arbitration:
+  ros__parameters:
+    nominal_mode: nav2
+    handoff_latency_ms: 150
+    dynamic_hazard_threshold: 0.62
+    min_clearance_switch_m: 0.34
+    return_to_nav2_threshold: 0.28
+    mission_timeout_s: 180.0

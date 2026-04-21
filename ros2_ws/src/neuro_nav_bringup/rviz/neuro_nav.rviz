@@ -1,0 +1,22 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Displays:
+    - Alpha: 1
+      Class: rviz_default_plugins/Grid
+      Name: Grid
+    - Class: rviz_default_plugins/LaserScan
+      Name: LaserScan
+      Topic:
+        Value: /scan
+    - Class: rviz_default_plugins/Odometry
+      Name: Odom
+      Topic:
+        Value: /odom
+    - Class: rviz_default_plugins/Marker
+      Name: GoalMarker
+      Topic:
+        Value: /neuro_nav/debug/goal_marker
+  Global Options:
+    Fixed Frame: world

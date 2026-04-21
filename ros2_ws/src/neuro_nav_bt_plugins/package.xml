@@ -1,0 +1,14 @@
+<package format="3">
+  <name>neuro_nav_bt_plugins</name>
+  <version>0.2.0</version>
+  <description>BehaviorTree.CPP / Nav2 plugins for hybrid neuro navigation arbitration.</description>
+  <maintainer email="faizan@example.com">Faizan Ahmed</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>behaviortree_cpp</depend>
+  <depend>nav2_behavior_tree</depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>neuro_nav_msgs</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

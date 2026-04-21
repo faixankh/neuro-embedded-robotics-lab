@@ -1,0 +1,21 @@
+<root BTCPP_format="4" main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence name="mission_root">
+      <Fallback name="hazard_aware_mode_switch">
+        <Sequence>
+          <IsDynamicHazardHigh threshold="0.62"/>
+          <SwitchToNeuroController reason="dynamic hazard high"/>
+        </Sequence>
+        <AlwaysSuccess/>
+      </Fallback>
+      <NavigateThroughPoses goals="{mission_goals}" server_name="navigate_through_poses"/>
+      <Fallback name="mission_recovery">
+        <Sequence>
+          <MissionTimeoutExceeded timeout_sec="180.0"/>
+          <RequestLocalRemap mode="lifelong"/>
+        </Sequence>
+        <AlwaysSuccess/>
+      </Fallback>
+    </Sequence>
+  </BehaviorTree>
+</root>

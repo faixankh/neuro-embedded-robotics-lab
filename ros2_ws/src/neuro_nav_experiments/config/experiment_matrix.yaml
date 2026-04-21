@@ -1,0 +1,11 @@
+runs:
+  - scenario: open_arena
+    method: nav2_only
+    seeds: [11, 17, 23, 29, 31]
+  - scenario: dynamic_crossing
+    method: hybrid_switching
+    seeds: [11, 17, 23, 29, 31]
+  - scenario: sensor_dropout
+    method: hybrid_switching
+    degradation_profile: severe
+    seeds: [11, 17, 23, 29, 31]

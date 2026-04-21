@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <world name="neuro_nav_arena">
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors"><render_engine>ogre2</render_engine></plugin>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <include><uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane</uri></include>
+    <include><uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri></include>
+    <model name="maze_block_a"><static>true</static><pose>2.5 0.0 0.75 0 0 0</pose><link name="link"><collision name="c"><geometry><box><size>0.3 6.0 1.5</size></box></geometry></collision><visual name="v"><geometry><box><size>0.3 6.0 1.5</size></box></geometry><material><ambient>0.25 0.25 0.28 1</ambient></material></visual></link></model>
+    <model name="maze_block_b"><static>true</static><pose>-1.8 1.8 0.75 0 0 0</pose><link name="link"><collision name="c"><geometry><box><size>4.0 0.3 1.5</size></box></geometry></collision><visual name="v"><geometry><box><size>4.0 0.3 1.5</size></box></geometry></visual></link></model>
+    <model name="maze_block_c"><static>true</static><pose>0.0 -2.0 0.75 0 0 0</pose><link name="link"><collision name="c"><geometry><box><size>5.4 0.3 1.5</size></box></geometry></collision><visual name="v"><geometry><box><size>5.4 0.3 1.5</size></box></geometry></visual></link></model>
+    <model name="dynamic_obstacle_hint"><static>false</static><pose>1.2 1.1 0.3 0 0 0</pose><link name="link"><inertial><mass>2.0</mass></inertial><collision name="c"><geometry><box><size>0.4 0.4 0.6</size></box></geometry></collision><visual name="v"><geometry><box><size>0.4 0.4 0.6</size></box></geometry><material><ambient>0.6 0.15 0.15 1</ambient></material></visual></link></model>
+  </world>
+</sdf>

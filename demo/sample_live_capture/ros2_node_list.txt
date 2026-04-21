@@ -1,0 +1,14 @@
+/robot_state_publisher
+/controller_manager
+/spawner_diff_drive_base_controller
+/spawner_joint_state_broadcaster
+/ros_gz_bridge
+/nav2_controller
+/nav2_planner
+/bt_navigator
+/map_server
+/amcl
+/neuro_controller
+/sensor_fusion
+/mission_supervisor
+/experiment_logger

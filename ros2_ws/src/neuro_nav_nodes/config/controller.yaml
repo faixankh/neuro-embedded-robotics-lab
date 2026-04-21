@@ -1,0 +1,21 @@
+neuro_controller_node:
+  ros__parameters:
+    goal_x: 10.0
+    goal_y: 0.0
+    planner_weight: 0.95
+    risk_weight: 1.05
+    obstacle_stop_distance: 0.30
+    max_linear_speed: 0.75
+    max_angular_speed: 1.20
+    publish_debug_markers: true
+
+sensor_fusion_node:
+  ros__parameters:
+    scan_clip_max: 8.0
+    min_valid_range: 0.05
+    publish_rate_hz: 20.0
+
+mission_supervisor_node:
+  ros__parameters:
+    goal_tolerance: 0.45
+    timeout_sec: 180.0

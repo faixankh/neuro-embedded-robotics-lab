@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Neuro-Embedded Navigation Lab
+message: If this repository is useful in academic work, please cite the software record.
+authors:
+  - family-names: Khan
+    given-names: Faizan Ahmed
+version: 0.3.0
+date-released: 2026-04-20
+repository-code: https://github.com/faixankh/neuro-embedded-navigation-lab
+license: MIT

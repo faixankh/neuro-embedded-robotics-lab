@@ -1,0 +1,14 @@
+$ source /opt/ros/jazzy/setup.bash
+$ colcon build --symlink-install
+[98.2s] Finished <<< neuro_nav_nodes
+[99.1s] Finished <<< neuro_nav_bringup
+[99.6s] Finished <<< neuro_nav_description
+[100.4s] Finished <<< neuro_nav_gazebo
+
+$ ros2 launch neuro_nav_bringup sim.launch.py use_nav2:=true record_bag:=true
+[INFO] [launch]: Launching Gazebo Harmonic world: neuro_nav_arena
+[INFO] [controller_manager]: Loaded joint_state_broadcaster
+[INFO] [controller_manager]: Loaded diff_drive_base_controller
+[INFO] [bt_navigator]: Navigation stack active
+[INFO] [mission_supervisor]: Mission 03 started
+[INFO] [experiment_logger]: Recording telemetry and event stream
